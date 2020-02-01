@@ -5,7 +5,7 @@ gamechooser = 0
 while (gamechooser < 1) or (gamechooser > 1):
   print("Welcome to Sebastian's Awesome Game Arcade!")
   time.sleep(1)
-  gamechooser = int(input("What game would you like to play? 1. Higher or Lower"))
+  gamechooser = int(input("What game would you like to play? 1. Higher or Lower "))
   if gamechooser < 1:
    print("Please try again, do not make it less than 1.")
   if gamechooser > 1:
